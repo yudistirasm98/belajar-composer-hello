@@ -1,0 +1,21 @@
+{
+    "name": "yudis/belajar-composer-hello",
+    "description": "belajar composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yudistirasm98",
+            "email": "yudistirasm@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "ProgramerZamanNow\\" : "src"
+        }
+    },
+
+    "require": {
+        "php" : ">=8.0"
+    }
+}
